@@ -1,7 +1,4 @@
 # ♻️ Edge AI Waste Classification System
-
-![Project Banner](https://i.imgur.com/EDFkR3P.png)
-
 A lightweight TensorFlow Lite model that classifies waste materials as **Organic** or **Recyclable**, optimized for edge devices like Raspberry Pi.
 
 ## Performance Summary
@@ -17,7 +14,7 @@ A lightweight TensorFlow Lite model that classifies waste materials as **Organic
 - Simple integration with existing systems
 
 ## Training Progress
-![Training Metrics](https://i.imgur.com/JQ8W0vA.png)
+![Training Metrics](https://colab.research.google.com/drive/1nWGkun7d9VuwdJP7PbfjLP-5MGEsOPGW#scrollTo=RzZbfqiz60RG))
 
 **Key Observations:**
 - Peak validation accuracy reached by Epoch 4
