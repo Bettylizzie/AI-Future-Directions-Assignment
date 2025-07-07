@@ -50,10 +50,10 @@ Requirements:
 
 # Setup:
 
-bash
-sudo apt-get install python3-pip
-pip3 install tflite-runtime
-Run Inference:
+   # bash
+    1. sudo apt-get install python3-pip
+    2. pip3 install tflite-runtime
+    3. Run Inference:
 
 bash
 python3 classify.py --model waste_classifier.tflite
