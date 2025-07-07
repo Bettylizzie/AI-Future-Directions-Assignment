@@ -14,7 +14,7 @@ A lightweight TensorFlow Lite model that classifies waste materials as **Organic
 - Simple integration with existing systems
 
 ## Training Progress
-![Training Metrics](https://colab.research.google.com/drive/1nWGkun7d9VuwdJP7PbfjLP-5MGEsOPGW#scrollTo=RzZbfqiz60RG))
+![download (1)](https://github.com/user-attachments/assets/3402a92f-bf37-462c-8286-9d0c39996fda)
 
 **Key Observations:**
 - Peak validation accuracy reached by Epoch 4
@@ -22,7 +22,7 @@ A lightweight TensorFlow Lite model that classifies waste materials as **Organic
 - Best balanced performance at Epoch 4
 
 ## Model Architecture
-![download (1)](https://github.com/user-attachments/assets/3402a92f-bf37-462c-8286-9d0c39996fda)
+![download (1)](https://github.com/user-attachments/assets/9e4e62ed-a65e-46fb-b277-c2672cb0d9b3)
 
 graph LR
     A[Input Image<br>180×180×3] --> B[Conv2D-16]
