@@ -22,7 +22,8 @@ A lightweight TensorFlow Lite model that classifies waste materials as **Organic
 - Best balanced performance at Epoch 4
 
 ## Model Architecture
-```mermaid
+![download (1)](https://github.com/user-attachments/assets/3402a92f-bf37-462c-8286-9d0c39996fda)
+
 graph LR
     A[Input Image<br>180×180×3] --> B[Conv2D-16]
     B --> C[MaxPooling]
@@ -34,12 +35,11 @@ graph LR
     H --> I[Dense-128]
     I --> J[Output Layer<br>2 Classes]
 # Dataset Composition
-https://i.imgur.com/5Xc3k9L.png
-
+![download](https://github.com/user-attachments/assets/f5e5ac47-49b1-4290-834b-7595cdac6aa3)
 # Class	Samples	Description
 Organic	7,532	Food waste, leaves
 Recyclable	6,894	Plastics, glass, metal
-🚀 Deployment Guide
+## Deployment Guide
 Requirements:
 
     Raspberry Pi 3/4
@@ -48,7 +48,7 @@ Requirements:
     
     TensorFlow Lite runtime
 
-Setup:
+# Setup:
 
 bash
 sudo apt-get install python3-pip
@@ -57,22 +57,15 @@ Run Inference:
 
 bash
 python3 classify.py --model waste_classifier.tflite
-🛠️ Suggested Improvements
-Data Augmentation
-
-Random rotations (±20°)
-
-Horizontal flips
-
-Brightness adjustments
-
-Model Optimization
-
-Quantization to INT8
-
-Pruning to reduce size
-
-Knowledge distillation
+## Suggested Improvements
+# Data Augmentation
+    1. Random rotations (±20°)
+    2. Horizontal flips
+    3. Brightness adjustments
+# Model Optimization
+    1. Quantization to INT8
+    2. Pruning to reduce size
+    3. Knowledge distillation
 
 # License
 MIT License - Free for academic and commercial use
